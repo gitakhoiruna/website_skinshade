@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff7f9">
+  <title>Analisis Kulit | Skin&Shade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Skin&Shade Beranda"><img src="assets/skinshade-logo.png" alt="Logo Skin&Shade" class="brand-logo"><span class="brand-word">Skin<span>&amp;</span>Shade</span></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+  <nav class="nav-links" aria-label="Navigasi utama">
+    <a href="index.html" data-nav="home">Beranda</a>
+    <a href="skincare.html" data-nav="skincare">Skincare</a>
+    <a href="makeup.html" data-nav="makeup">Makeup</a>
+    <a href="analysis.html" data-nav="analysis" class="active">Analisis Kulit</a>
+  </nav>
+  <div class="nav-auth"><a class="login-link" href="login.html">Masuk</a><a class="btn btn-small" href="register.html">Daftar</a></div>
+</header>
+<main>
+
+<section class="page-hero"><div class="container page-hero-grid"><div><h1>Kenali Kondisi<br><em style="color:var(--pink-dark);font-style:normal">Kulitmu</em></h1><p class="lead">Jawab lima pertanyaan singkat tentang kondisi kulitmu. Hasilnya merupakan perkiraan awal untuk membantu memilih panduan perawatan yang relevan.</p></div><img src="assets/analisisskin.jpeg" alt="Perawatan wajah" onerror="this.src='assets/beautyplaceholder.svg'"></div></section>
+<section class="section"><div class="container analysis-layout">
+ <aside class="analysis-aside"><img src="assets/cucimuka.jpg" alt="Perawatan kulit" onerror="this.src='assets/beautyplaceholder.svg'"><h3>Tips sebelum mulai</h3><p>Lakukan pengamatan saat kulit sedang tenang. Jika memungkinkan, cuci wajah dengan pembersih lembut, tunggu sekitar 30–60 menit tanpa memakai produk, lalu amati kondisinya.</p><p class="small-note">Kuesioner ini bukan diagnosis medis. Kulit sensitif dapat muncul bersamaan dengan jenis kulit lain.</p></aside>
+ <div class="quiz-card" id="quiz" data-quiz>
+  <div class="progress-top"><span id="question-count">Pertanyaan 1 dari 5</span><span id="progress-percent">20%</span></div><div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+  <div id="question-area" aria-live="polite"></div><div class="quiz-error" id="quiz-error" role="status"></div>
+  <div class="quiz-actions"><button class="btn btn-outline" type="button" id="prev-btn" disabled>Kembali</button><button class="btn" type="button" id="next-btn">Lanjut ↗</button></div>
+ </div>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <a class="footer-brand" href="index.html">Skin&amp;Shade</a>
+  <p>Kenali kulitmu, rawat dengan lebih bijak.</p>
+  <div class="footer-links"><a href="skincare.html">Panduan Skincare</a><a href="makeup.html">Panduan Makeup</a><a href="analysis.html">Analisis Kulit</a></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

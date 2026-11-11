@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff7f9">
+  <title>Beranda | Skin&Shade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Skin&Shade Beranda"><img src="assets/skinshade-logo.png" alt="Logo Skin&Shade" class="brand-logo"><span class="brand-word">Skin<span>&amp;</span>Shade</span></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+  <nav class="nav-links" aria-label="Navigasi utama">
+    <a href="index.html" data-nav="home" class="active">Beranda</a>
+    <a href="skincare.html" data-nav="skincare">Skincare</a>
+    <a href="makeup.html" data-nav="makeup">Makeup</a>
+    <a href="analysis.html" data-nav="analysis">Analisis Kulit</a>
+  </nav>
+  <div class="nav-auth"><a class="login-link" href="login.html">Masuk</a><a class="btn btn-small" href="register.html">Daftar</a></div>
+</header>
+<main>
+
+<section class="hero">
+ <div class="container hero-grid">
+  <div class="hero-copy">
+   <h1>Kenali kulitmu,<br><em>temukan caramu</em><br>merawat diri.</h1>
+   <p class="lead">Panduan sederhana untuk memahami jenis kulit, memilih kandungan skincare yang sesuai, dan mempelajari makeup yang mendukung tampilan terbaikmu.</p>
+   <div class="hero-actions"><a class="btn" href="analysis.html">Mulai Analisis Kulit <span>↗</span></a><a class="btn btn-outline" href="skincare.html">Jelajahi Panduan</a></div>
+   <p class="hero-note">Informasi kecantikan yang lebih personal, tanpa harus bingung memulai dari mana.</p>
+  </div>
+  <div class="hero-visual"><div class="visual-blob"></div><img class="hero-photo" src="assets/homee.jpg" alt="Perawatan wajah dan skincare" onerror="this.src='assets/beauty-placeholder.svg'">
+ </div>
+</section>
+<section class="section"><div class="container">
+ <div class="section-head"><h2>Temukan yang kamu butuhkan</h2><p>Mulai dari mengenali jenis kulit sampai memahami cara merawat dan meriasnya dengan tepat.</p></div>
+ <div class="feature-row">
+  <article class="feature"><div class="feature-icon">✿</div><div><h3>Analisis Kulit</h3><p>Jawab lima pertanyaan singkat untuk mendapatkan perkiraan jenis kulit dan panduan perawatan yang relevan.</p><a class="text-link" href="analysis.html">Kenali kulitmu ↗</a></div></article>
+  <article class="feature"><div class="feature-icon">♡</div><div><h3>Panduan Skincare</h3><p>Pelajari kandungan, rutinitas pagi dan malam, layering, serta cara memakai skincare dengan aman.</p><a class="text-link" href="skincare.html">Baca panduan ↗</a></div></article>
+  <article class="feature"><div class="feature-icon">✧</div><div><h3>Panduan Makeup</h3><p>Pelajari teknik makeup menurut jenis kulit, pemilihan warna foundation, dan kebersihan alat makeup.</p><a class="text-link" href="makeup.html">Baca panduan ↗</a></div></article>
+ </div>
+</div></section>
+<section class="section section-soft"><div class="container split">
+ <div><h2>Perawatan yang baik dimulai dari memahami kulit sendiri.</h2><p>Jenis kulit setiap orang berbeda. Produk yang cocok untuk orang lain belum tentu cocok untukmu, dan kebutuhan kulit dapat berubah karena cuaca, hormon, stres, maupun kebiasaan sehari-hari.</p><ul class="check-list"><li>Kenali ciri kulitmu sebelum memilih kandungan.</li><li>Bangun rutinitas sederhana dan konsisten.</li><li>Perhatikan reaksi kulit saat mencoba produk baru.</li></ul><a class="text-link" href="skincare.html">Pelajari dasar skincare ↗</a></div>
+ <img class="split-image" src="assets/masker.jpg" alt="Suasana perawatan wajah" onerror="this.src='assets/beauty-placeholder.svg'">
+</div></section>
+<section class="section"><div class="container">
+ <div class="promo"><div><h2>Ingin pengalaman kecantikan yang lebih personal?</h2><p>Beberapa fitur tersedia di aplikasi Skin&amp;Shade, seperti AR Try-On untuk mencoba tampilan makeup secara virtual dan Reminder untuk membantu mengingat jadwal skincare.</p></div><a class="btn" href="#fitur-aplikasi" onclick="document.getElementById('fitur-aplikasi').scrollIntoView({behavior:'smooth'});return false;">Lihat fitur aplikasi</a></div>
+ <div id="fitur-aplikasi" class="feature-row" style="margin-top:34px">
+  <article class="feature"><div class="feature-icon">◎</div><div><h3>AR Try-On Makeup</h3><p>Coba tampilan dan warna makeup secara virtual melalui aplikasi Skin&amp;Shade.</p></div></article>
+  <article class="feature"><div class="feature-icon">◷</div><div><h3>Skincare Reminder</h3><p>Atur pengingat rutinitas perawatan kulit agar lebih mudah konsisten.</p></div></article>
+  <article class="feature"><div class="feature-icon">⌕</div><div><h3>Gunakan di aplikasi</h3><p>Website ini berfokus pada panduan. Untuk fitur interaktif tersebut, lanjutkan melalui aplikasi.</p></div></article>
+ </div>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <a class="footer-brand" href="index.html">Skin&amp;Shade</a>
+  <p>Kenali kulitmu, rawat dengan lebih bijak.</p>
+  <div class="footer-links"><a href="skincare.html">Panduan Skincare</a><a href="makeup.html">Panduan Makeup</a><a href="analysis.html">Analisis Kulit</a></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

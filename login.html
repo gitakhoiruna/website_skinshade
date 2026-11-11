@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff7f9">
+  <title>Masuk | Skin&Shade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Skin&Shade Beranda"><img src="assets/skinshade-logo.png" alt="Logo Skin&Shade" class="brand-logo"><span class="brand-word">Skin<span>&amp;</span>Shade</span></a>
+  <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+  <nav class="nav-links" aria-label="Navigasi utama">
+    <a href="index.html" data-nav="home">Beranda</a>
+    <a href="skincare.html" data-nav="skincare">Skincare</a>
+    <a href="makeup.html" data-nav="makeup">Makeup</a>
+    <a href="analysis.html" data-nav="analysis">Analisis Kulit</a>
+  </nav>
+  <div class="nav-auth"><a class="login-link" href="login.html">Masuk</a><a class="btn btn-small" href="register.html">Daftar</a></div>
+</header>
+<main>
+
+<section class="auth-wrap"><div class="auth-card"><img class="auth-logo" src="assets/skinshade-logo.png" alt="Logo Skin&Shade"><h1>Selamat datang</h1><p>Masuk ke akun Skin&amp;Shade kamu.</p>
+<form id="login-form" novalidate><div class="form-field"><label for="login-email">Email</label><input id="login-email" type="email" placeholder="nama@email.com" autocomplete="email" required></div><div class="form-field"><label for="login-password">Kata sandi</label><input id="login-password" type="password" placeholder="Masukkan kata sandi" autocomplete="current-password" required></div><button class="btn" type="submit">Masuk</button><div class="form-message" id="login-message" role="status"></div></form>
+<div class="auth-foot">Belum punya akun? <a class="text-link" href="register.html">Daftar sekarang</a></div><div class="auth-foot"><a class="text-link" href="index.html">← Kembali ke beranda</a></div></div></section>
+
+</main>
+<footer class="site-footer">
+  <a class="footer-brand" href="index.html">Skin&amp;Shade</a>
+  <p>Kenali kulitmu, rawat dengan lebih bijak.</p>
+  <div class="footer-links"><a href="skincare.html">Panduan Skincare</a><a href="makeup.html">Panduan Makeup</a><a href="analysis.html">Analisis Kulit</a></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
